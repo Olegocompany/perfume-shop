@@ -1,24 +1,13 @@
 {
-  "name": "parfume-parser",
+  "name": "parfume-parser-monorepo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lisantov/perfume-shop.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/lisantov/perfume-shop/issues"
-  },
-  "homepage": "https://github.com/lisantov/perfume-shop#readme",
-  "dependencies": {
-    "xlsx": "^0.18.5"
+    "dev": "echo 'Run apps separately'",
+    "parse": "npm run parse --workspace=@parfume-parser/parser"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "name": "@parfume-parser/parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "parse": "node index.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
