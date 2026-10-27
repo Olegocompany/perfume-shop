@@ -3,5 +3,10 @@
 .env
 .env*
 
+*.xls
+*.xlsx
+products.json
+
+node_modules
 
 !.env.example
